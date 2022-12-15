@@ -1,0 +1,72 @@
+@import '../../style/App.scss';
+.rowhero{
+  max-width: 200px;
+  
+}
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -8px;
+  margin-left: -8px;
+  /* align-items: center; */
+  justify-content: center;
+}
+.wrapper_hero{
+  //max-width: 1200px;
+  margin-top: 0;
+  padding: 0 60px;
+  height: 850px;
+  //margin: 0 auto;
+  background-image: url("../../assets/hero/hero_1.png");
+  background-size:cover;                  
+  background-repeat:no-repeat;
+  background-position:center top;      
+}
+.hero {
+  padding-top: 240px;
+  width: 100%;
+  padding-bottom: 60px;
+  .hero-info {
+    
+    padding-top: 60px;
+
+    p {
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+  }
+
+  .hero-image {
+    max-width: 570px;
+    height: auto;
+    float: right;
+    
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .hero {
+    padding-top: 140px;
+
+    .hero-info {
+      padding-top: 0px;
+    }
+
+    .hero-image {
+      float: none;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .hero {
+    .hero-info {
+      text-align: center;
+    }
+  }
+}

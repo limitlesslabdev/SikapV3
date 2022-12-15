@@ -1,0 +1,97 @@
+@import '../../style/App.scss';
+
+.hero {
+  padding-top: 120px;
+  width: 100%;
+  padding-bottom: 60px;
+  .hero-info {
+    padding-top: 60px;
+
+    p {
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+  }
+ 
+
+  .hero-image {
+    max-width: 570px;
+    height: auto;
+    float: right;
+    
+    
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .hero {
+    padding-top: 140px;
+
+    .hero-info {
+      padding-top: 0px;
+    }
+
+    .hero-image {
+      float: none;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .hero {
+    .hero-info {
+      text-align: center;
+    }
+  }
+}
+.dlToolkit{
+  
+    border-radius: 50%;
+    width: 100px;
+    height: 400px; 
+    background: #e1f1fd; 
+  
+ 
+}
+.dlToolkit1{
+  
+  border-radius: 50%;
+  width: 100px;
+  height: 400px; 
+  background:#fbd9d3 
+
+
+}
+
+.becomePartner{
+
+  height:50px;
+  background: #4DACAE;
+  width:calc(50% - 20px);
+ 
+}
+.wrapper1 {
+  color:white;
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #4DACAE;
+  margin: auto;
+}
+.item {
+  margin-left:200px;
+  height:50px;
+ 
+  width:calc(50% - 20px);
+}
+.hero-info1{
+  padding-top: 60px;
+  margin-left: 250px;
+
+  p {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}

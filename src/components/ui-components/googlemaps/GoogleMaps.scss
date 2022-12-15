@@ -1,0 +1,12 @@
+.map-container{
+    width: 100%;
+    height: 100vh;   
+    text-align: center; 
+}
+
+.images:hover{
+    transform: scale(1.5);
+}
+.images{
+    transition: transform .2s;
+}
